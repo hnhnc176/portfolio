@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #2A549C;
+  --third-color: #EDA433;
+  --background-color: #ffffff;
+  --font-h1: 'Rammetto One', cursive;
+  --font-h2: 'DM Sans', sans-serif;
+  --font-primary: 'Poppins', sans-serif;
+  --font-footer: 'Source Code Pro', monospace;
+  --font-size-h1: 88px;
+  --font-size-h2: 22px;
+  --font-size-p1: 16px;
+  --font-size-p2: 14px;
+
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+}
