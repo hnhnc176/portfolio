@@ -344,7 +344,7 @@ h1 {
     height: 55%;
     border-radius: 26px 26px 0 0;
     align-items: center;
-    background-image: url('/assets/bg_project.png');
+    background-image: url('assets/bg_project.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -421,7 +421,7 @@ h1 {
     width: 100%;
     height: fit-content;
     margin: 30px 0;
-    background-image: url('/assets/Frame\ 288.png');
+    background-image: url('assets/Frame\ 288.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
