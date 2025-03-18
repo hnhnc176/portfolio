@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 My personal portfolio website showcasing my projects and skills.
-Check my Portfolio here: https://hnhnc176.github.io/portfolio/
+\nCheck my Portfolio here: https://hnhnc176.github.io/portfolio/
 
 ## Setup
 1. Clone the repository
