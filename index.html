@@ -11,9 +11,15 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rammetto+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+        });
+    </script>
 </head>
 
 <body>
@@ -26,6 +32,9 @@
             <ul class="nav__menu">
                 <li class="nav__item">
                     <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experiences</a>
                 </li>
                 <li class="nav__item">
                     <a href="#projects" class="nav__link">Projects</a>
@@ -42,14 +51,14 @@
         <div class="hero__content">
             <div class="hero__content-intro">
                 <p class="hero__greeting">Hi, My name is Huynh Nhu Ngoc</p>
-                <h1 class="hero__title">Front End Developer</h1>
+                <h1 class="hero__title">Software Engineer</h1>
                 <p class="hero__description">turning ideas into interactive and intuitive web solutions, dedicated to
                     building seamless and engaging digital experiences.</p>
             </div>
-            <a class="hero__btn" href="assets/FrontEnd_Developer_Intern-Huynh_Nhu_Ngoc.pdf" download="FrontEnd_Developer_Intern-Huynh_Nhu_Ngoc.pdf">Download CV</a>
+            <a class="hero__btn" href="assets/Software_Engineer_Intern-Huynh_Nhu_Ngoc.pdf" download="Software_Engineer_Intern-Huynh_Nhu_Ngoc.pdf">Download CV</a>
         </div>
         <div class="hero__image-wrapper">
-            <img src="assets/hero-image.png" alt="hero image" class="hero__image">
+            <img src="assets/bug_fixer.svg" alt="hero image" class="hero__image">
         </div>
     </section>
 
@@ -58,8 +67,8 @@
         <div class="about__container">
             <h1 class="about__title">About</h1>
             <div class="about__content">
-                <img src="assets/about.png" alt="about image" class="about__image">
-                <p class="about__description">Hello! My name is Huynh Nhu Ngoc (Jaden), and I am a passionate web
+                <img src="assets/about.svg" alt="about image" class="about__image">
+                <p class="about__description">Hello! My name is Huynh Nhu Ngoc (Jude), and I am a passionate web
                     developer with a strong focus on frontend technologies. I enjoy turning creative ideas into visually
                     engaging and user-friendly web applications. My expertise lies in Vue, React, and .NET 8 (Minimal
                     API), and I am constantly improving my skills to write efficient, scalable, and maintainable code.
@@ -124,9 +133,42 @@
                         <a href="https://www.facebook.com/hnhngx/" class="social__item">
                             <i class='bx bxl-facebook social__icon'></i>
                         </a>
-                        <a href="mailto:ngochuynh176.work@gmail.com?subject=Portfolio Contact" class="social__item">
+                        <a href="mailto:ngochuynh.0176@gmail.com?subject=Portfolio Contact" class="social__item">
                             <i class='bx bx-envelope contact__icon'></i>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="experience__container">
+            <h1 class="experience__title">Experiences</h1>
+            <div class="experience__content">
+                <div class="experience__item">
+                    <div class="experience__logo">
+                        <img src="assets/fpt_logo.png" alt="FPT Telecom logo" class="experience__logo-img">
+                    </div>
+                    <div class="experience__details">
+                        <div class="experience__header">
+                            <h3 class="experience__position">Intern Frontend Developer at FPT Telecom</h3>
+                            <p class="experience__date">Apr 2025 - Jun 2025</p>
+                        </div>
+                        <p class="experience__description">Developed full-stack web applications leveraging modern technologies including ReactJS for dynamic frontend interfaces, Tailwind CSS for efficient and responsive styling, and Node.js for backend logic and API integration. Actively contributed to team-based development projects by designing and implementing user-friendly UI components.</p>
+                    </div>
+                </div>
+                <div class="experience__item">
+                    <div class="experience__logo">
+                        <img src="assets/s4_logo.png" alt="S4 Consulting logo" class="experience__logo-img">
+                    </div>
+                    <div class="experience__details">
+                        <div class="experience__header">
+                            <h3 class="experience__position">Intern ERP Developer at S4 Consulting</h3>
+                            <p class="experience__date">Jul 2025 - Sep 2025</p>
+                        </div>
+                        <p class="experience__description">Gained foundational knowledge of business processes and ERP system architecture through structured training and hands-on exercises. Explored key functional modules such as Sales, Accounting, and Inventory Management, developing an understanding of how these components interact to support enterprise operations.</p>
                     </div>
                 </div>
             </div>
@@ -139,10 +181,26 @@
         <div class="projects__grid">
             <article class="project-card active" id="project-card">
                 <div class="project-card__bg">
-                    <img src="assets/p1_pic.png" alt="project image" class="project-card__image">
+                    <img src="assets/p1.png" alt="project image" class="project-card__image">
                 </div>
                 <div class="project-card__content">
-                    <h2 class="project-card__title">My portfolio</h2>
+                    <div class="project-card__title">
+                        <h2>My portfolio</h2>
+                        <i data-lucide="link-2" style="stroke-width: 3;"></i>
+                    </div>
+                    <p class="project-card__description">A simple, user-friendly portfolio designed for easy navigation,
+                        showcasing my profile, projects, skills, and social links at a glance.</p>
+                </div>
+            </article>
+            <article class="project-card active" id="project-card">
+                <div class="project-card__bg">
+                    <img src="assets/Logo.png" alt="project image" class="project-card__image">
+                </div>
+                <div class="project-card__content">
+                    <div class="project-card__title">
+                        <h2>Empathy Forum</h2>
+                        <i data-lucide="link-2" style="stroke-width: 3;"></i>
+                    </div>
                     <p class="project-card__description">A simple, user-friendly portfolio designed for easy navigation,
                         showcasing my profile, projects, skills, and social links at a glance.</p>
                 </div>
@@ -152,19 +210,11 @@
                     <p class="project-card-p">upcoming...</p>
                 </div>
                 <div class="project-card__content">
-                    <h2 class="project-card__title">Project 2</h2>
+                    <div class="project-card__title">
+                         <h2>Project 3</h2>
+                         <i data-lucide="link-2" style="stroke-width: 2;"></i>
+                     </div>
                     <p class="project-card__description">Project Description</p>
-                    <a href="#" class="project-card__link">Details<i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </article>
-            <article class="project-card deactive" id="project-card">
-                <div class="project-card__bg">
-                    <p class="project-card-p">upcoming...</p>
-                </div>
-                <div class="project-card__content">
-                    <h2 class="project-card__title">Project 3</h2>
-                    <p class="project-card__description">Project Description</p>
-                    <a href="#" class="project-card__link">Details<i class='bx bx-right-arrow-alt'></i></a>
                 </div>
             </article>
         </div>
