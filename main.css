@@ -61,10 +61,6 @@ h1 {
     transition: color 0.3s ease;
 }
 
-.nav__logo-link:hover {
-    /* color change removed */
-}
-
 .nav__menu {
     font-family: var(--font-h2);
     display: flex;
